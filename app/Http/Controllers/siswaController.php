@@ -44,7 +44,7 @@ class siswaController extends Controller
             'alamat' => $request->alamat,
         ]);
 
-        return redirect('siswa0311');
+        return redirect('siswa');
     }
 
     /**

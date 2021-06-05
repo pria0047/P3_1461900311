@@ -16,4 +16,6 @@ class siswa extends Model
     'nama',
     'alamat',
     ];
+
+    public $timestamps = false;
 }

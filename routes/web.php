@@ -19,4 +19,3 @@ Route::get('/', function () {
 });
 
 Route::resource('siswa', siswaController::class);
-Route::get('/siswa/create',siswaController@create);
